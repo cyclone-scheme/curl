@@ -12,8 +12,8 @@ jobs:
 
     steps:
     # Install dependencies
-    - name: Install libck
-      run: sudo apt-get install libck-dev    
+    - name: Install libck, libcurl
+      run: sudo apt-get install libck-dev libcurl4-openssl-dev
     - name: Install Cyclone
       run: |
         wget https://github.com/cyclone-scheme/binary-releases/raw/master/ubuntu-18.04-lts/cyclone-scheme_0.15_amd64.deb 
