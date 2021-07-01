@@ -1,6 +1,6 @@
 (package
  (name           curl)
- (version        0.2)
+ (version        "0.2.0")
  (license        "MIT")
  (authors        "Justin Ethier")
  (maintainers    "Justin Ethier <justin.ethier at gmail dot com>")
