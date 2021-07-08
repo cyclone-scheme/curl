@@ -7,7 +7,7 @@
  (description    "Bindings for the cURL library")
  (tags           "networking" "url")
  (docs           "https://github.com/cyclone-scheme/cyclone-winds/wiki/curl")
- ;(test           "array-list-tests.scm")
+ (test           "tests.scm")
 
  (library
      (name (cyclone curl))
